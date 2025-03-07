@@ -1,4 +1,8 @@
-    # Windows thumbnail cache files
+<<<<<<< HEAD
+    #Windows thumbnail cache files
+=======
+    #Windows thumbnail cache files
+>>>>>>> 13a9b5f (first commit)
 
     Thumbs.db
 
@@ -70,4 +74,8 @@
 
     # Built Visual Studio Code Extensions
 
+<<<<<<< HEAD
     *.vsix
+=======
+    *.vsix
+>>>>>>> 13a9b5f (first commit)
