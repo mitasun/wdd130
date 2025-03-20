@@ -84,12 +84,12 @@ footer {
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 27px;
+    left: 87px;
 }
 
 aside {
-    width: 20em;
+    width: 20rem;
     margin: 10px auto;
     border: 1px solid rgba(0, 0, 0);
     padding: var(--panding);
