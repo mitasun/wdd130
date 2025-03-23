@@ -1,11 +1,24 @@
-:root {
-    --heading-background-color: 6785be;
-    --heading-text-color: #333;
-    --heading-font: 'Montserrat', Helvetica, sans-serif;
-    --panding: 1rem;
-    --border: 1px solid 027bce;
+
+
+
+
+p {
+    padding: 10px;
 }
 
+main {
+    max-width: 2000px;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
 .boldonse-regular {
     font-family: "Boldonse", system-ui;
     font-weight: 400;
@@ -50,12 +63,10 @@
 
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+    padding: 10px;
+    font-size: 10px;
+    width: 15px;
+    margin: 3px 1px;
 }
 
 .fa-facebook {
