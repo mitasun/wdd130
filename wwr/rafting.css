@@ -1,3 +1,12 @@
+:root {
+  --heading-background-color: rgb(36, 146, 67);
+  --heading-text-color: #333;
+  --heading-font: 'Montserrat', Helvetica, sans-serif;
+  --panding: 1rem;
+  --border: 1px solid rgb(0, 0, 0);
+}
+
+
 .boldonse-regular {
   font-family: "Boldonse", system-ui;
   font-weight: 400;
