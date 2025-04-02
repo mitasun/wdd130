@@ -140,9 +140,10 @@ h2 {
 }
 
 .navigation {
-  display: block;
+  display:  block;
   padding: 0;
   font-family: lato, sans-serif;
+  
 }
 
 .navigation li {
@@ -153,7 +154,7 @@ h2 {
   display: block;
   color: var(--heading-background-color);
   padding: 20px;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 1.2rem;
 }
 
@@ -180,7 +181,7 @@ article {
   display: block;
   color: var(--heading-text-color);
   padding: 20px;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 0rem;
   float: right;
 }
