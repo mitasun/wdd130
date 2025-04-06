@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="Styles/poll-form.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 | HTML Form - User Poll</title>
@@ -19,25 +20,26 @@
                 <input type="text" id="fullname" name="fullname">
                 <label for="username">Email:</label>
                 <input type="text" id="username" name="useremail">
-             </fieldset>
+            </fieldset>
             <fieldset>
                 <legend>Questions</legend>
                 <label for="what is you favorite Browser">What is your favorite browser?</label>
                 <select id="browser" name="browser">
-                <option value="chrome">Chrome</option>
-                <option value="firefox">Firefox</option>
-                <option value="safari">Safari</option>
-                <option value="edge">Edge</option>
-                <option value="brave">Brave</option>
-                <option value="opera">Opera</option>
-                <option value="other">Other</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="opera">Opera</option>
+                    <option value="other">Other</option>
                 </select>
                 <label for="do you have a household pet.">Do you have a household pet?</label>
                 <input type="checkbox" id="pet" name="pet">
                 <label for="list the places y9ou have lived">List the places you haev lived.</label>
-                <input type="textarea" id="feedback" name="feedback" rows="4" placeholder="Cedar Rapids Iowa, Mckinney Texas, Euless Texas"></textarea>
-                </fieldset>
-                <button type="submit">Submit Poll</button>
+                <input type="textarea" id="feedback" name="feedback" rows="4"
+                    placeholder="Cedar Rapids Iowa, Mckinney Texas, Euless Texas"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
         </form>
 
 
