@@ -18,7 +18,6 @@
 
 <body>
     <header>
-        <h1>Rafting For Hope</h1>
         <img src="images/logo.webp" alt="logo" width=100>
         <nav>
             <ul class="navigation">
@@ -29,19 +28,26 @@
                     <link rel="stylesheet" href="https://mitasun.github.io/wdd130/wwr/about.html">
                 </li>
                 <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a>
+                    <link rel="stylesheet" href="https://mitasun.github.io/wdd130/wwr/contact.html">
+                </li>
             </ul>
         </nav>
     </header>
     <main>
         <div>
-        <p>Rafting for Hope: 
-            Company address: Lorem ipsum dolor sit, amet consectetur <br>
-            Phone numbers: Toll free: 1-800-867-5309 Local: 903-867-5309 <br>
-            Email: thisis@forclass.com <br>         
-        </p>
-        <iframe src="https://www.google.com/maps/embed?" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+            <img class="backgrd" src="images/hero_back.webp" alt="background">
+            <article class="div-art">
+                <h1 class="div-h1">Rafting for Hope</h1>
+                <iframe class="div-image" src="https://www.google.com/maps/embed?" width="600" height="450"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="div-para">
+                    Company address: Lorem ipsum dolor sit, amet consectetur <br>
+                    Phone numbers: Toll free: 1-800-867-5309 Local: 903-867-5309 <br>
+                    Email: thisis@forclass.com <br>
+                </p>
+            </article>
+        </div>
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
@@ -53,16 +59,16 @@
             <fieldset>
                 <legend>Purpose of Contact</legend>
                 <label for="reason">What can we do for you?</label><br>
-                    <input type="radio" id="gen" name="reason" value="gen">
-                    <label for="ginquiry">General Inquiry</label><br>
-                    <input type="radio" id="resquest" name="reason" value="resquest">
-                    <label for="rquestion">Reservation Question</label><br>
-                    <input type="radio" id="websuggest" name="reason" value="websuggest">
-                    <label for="wsuggestion">Website Suggestion</label><br>
+                <input type="radio" id="gen" name="reason" value="gen">
+                <label for="ginquiry">General Inquiry</label><br>
+                <input type="radio" id="resquest" name="reason" value="resquest">
+                <label for="rquestion">Reservation Question</label><br>
+                <input type="radio" id="websuggest" name="reason" value="websuggest">
+                <label for="wsuggestion">Website Suggestion</label><br>
                 <label for="message">Tell us what we can do?</label><br>
-                <textarea id="message" name="message" ></textarea><br>
+                <textarea id="message" name="message"></textarea><br>
                 <label for="subscri">Please subscribe me to the monthly newsletter</label><br>
-                <input type="checkbox" id="subscri" name="subscri" >
+                <input type="checkbox" id="subscri" name="subscri">
             </fieldset>
             <button type="submit">Submit Poll</button>
 
