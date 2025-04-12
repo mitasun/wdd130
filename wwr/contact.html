@@ -28,7 +28,28 @@
     </header>
     <main>
         <form>
-            
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="username">Email:</label>
+                <input type="text" id="username" name="useremail"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Purpose of Contact</legend>
+                <label for="reasoncontact">What can we do for you?</label><br>
+                <radio>
+                    <input type="radio" id="gen" name="reasoncontact" value="gen">
+                    <label for="general inquiry">General Inquiry</label><br>
+                    <input type="radio" id="resquest" name="reasoncontact" value="resquest">
+                    <label for="reservation question">Reservation Question</label><br>
+                    <input type="radio" id="websuggest" name="reasoncontact" value="websuggest">
+                    <label for="website suggestion">Website Suggestion</label><br>
+                </radio>
+                <label for="message">Tell us what we can do?</label><br>
+                <textarea type="text" id="message" name="message" ></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
         </form>
 
     </main>
