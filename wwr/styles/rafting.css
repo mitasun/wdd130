@@ -192,7 +192,6 @@ article {
   border: 1px solid var(--heading-background-color);
   padding: 1em;
   background-color: var(--border);
-  width: (600px, 100%);
   font-size: 1.2rem;
 }
 
