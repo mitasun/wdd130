@@ -194,7 +194,6 @@ article {
   background-color: var(--border);
   width: (600px, 100%);
   font-size: 1.2rem;
-  flex-wrap: wrap;
 }
 
 .footer {
