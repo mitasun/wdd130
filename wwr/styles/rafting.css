@@ -97,7 +97,7 @@ header {
 
 .backgrd {
   width: 100%;
-  height: 40%;  
+  height: 40%;
 }
 
 .div-art {
@@ -141,7 +141,7 @@ header {
   display: block;
   height: 250px;
   flex-direction: row;
-  
+
 }
 
 h2 {
@@ -182,7 +182,16 @@ h2 {
 .paths {
   display: flex;
   flex-flow: row nowrap;
-} 
+}
+
+.choice {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: black;
+  background-color: var(--heading-background-color);
+}
 
 body {
   font-family: lato, sans-serif;
@@ -194,7 +203,7 @@ h3 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 100%;
   align-items: flex-start;
-  justify-content: center;  
+  justify-content: center;
 }
 
 article {
