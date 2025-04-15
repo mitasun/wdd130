@@ -1,8 +1,8 @@
 :root {
   --heading-background-color: #027bce;
-  --heading-text-color: #3e6680;
+  --heading-text-color: black;
   --heading-font: system-ui;
-  --text-emphasis-color: #00457c;
+  --text-emphasis-color: black;
   --padding: 1rem;
   --border: #6785Be;
 }
@@ -80,7 +80,9 @@ header {
   align-items: center;
   border-bottom: 1px solid var(--heading-background-color);
   max-width: 1000px;
-}
+  background-color: var(--heading-background-color);
+  padding: 1rem;
+ }
 
 .logo img {
   margin: 0 0.25rem 0 1rem;
@@ -162,9 +164,9 @@ h2 {
 
 .navigation a {
   display: block;
-  color: var(--heading-background-color);
+  color: var(--heading-text-color);
   padding: 20px;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 1.2rem;
 }
 
@@ -175,19 +177,16 @@ h2 {
 }
 
 .risen-br {
-  display: block;
-  width: 100%;
-  height: auto;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  left: 40%;
 }
 
-.pathsh2 {
+.risen {
   display: flex;
   justify-content: center;
-}
-
-.paths {
-  display: flex;
-  flex-flow: row nowrap;
+  flex-flow: nowrap;
 }
 
 .choice {
@@ -197,9 +196,25 @@ h2 {
   font-size: 1.2rem;
   border: black;
   background-color: var(--heading-background-color);
+
 }
 
+.trsections {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-rows: 120px 1fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid var(--heading-background-color);
+  max-width: 1000px;
+  background-color: var(--heading-background-color);
+  padding: 1rem;
+}
 
+.trimg {
+  display: grid;
+  float: left;
+  flex-wrap: wrap;
+}
 
 body {
   font-family: lato, sans-serif;
@@ -225,7 +240,7 @@ article {
 .footer {
   display: flex;
   color: var(--heading-text-color);
-  text-decoration: underline;
+  text-decoration: none;
   justify-content: flex-end;
   font-size: .01rem;
 }
