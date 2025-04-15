@@ -76,7 +76,7 @@
 header {
   margin: auto;
   display: grid;
-  grid-template-columns: 150px 1fr 1fr;
+  grid-template-columns: 150px 150px 150px;
   align-items: center;
   border-bottom: 1px solid var(--heading-background-color);
   max-width: 1000px;
